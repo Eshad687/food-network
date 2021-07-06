@@ -88,18 +88,17 @@ h5{
 h3{
     font-size: 40px;
     color: gray;
-    width: 40%;   
+       
 }
 p{
     font-size: 20px;
    
     width: 70%;
     color:rgb(58, 57, 57) ; 
-    margin-bottom: 50px;  
+    margin-bottom: 90px;  
 }
-.last h3{
-    width:17%;
-    margin:0 auto;  
+.centre-text{
+    text-align: center; 
 }
 .last p{
     width: 50%;
@@ -136,7 +135,6 @@ h4{
 }
 footer{
     padding-top: 20px;
-    text-align: center;
     background-color: rgb(12, 18, 36);
     padding-bottom: 50px;
     
