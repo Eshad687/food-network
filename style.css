@@ -1,13 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin:0;
+    
 }
 ul{
    
     margin-left: 150px;
     margin-right: 20px;
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 50px;
     
 
 }
@@ -28,32 +29,39 @@ h1 a{
     font-size: 60px;
     text-decoration: none;
     color: orange;
+
    
 }
 h2{
     font-size: 60px;
     color: rgb(58, 57, 57);
-    margin-top: 100px;
+    margin-top: 150px;
 }
 span{
     color: orange;
 }
-p{
+h5{
     color: gray;
     font-size: 20px;
     margin-bottom: 50px;
-    margin-right: 50px;
+    font-weight: 400;
+    
 }
 .flexible{
     display: flex;
+    margin-bottom: 50px;
+    
+   
+   
 }
 .half-width{
     width: 50%;
-    margin-left: 20px;
+    
     margin-right: 20px;
+    margin-left: 80px;
    
-    padding: 10px;
-}
+    
+   }
 .half-width img{
     
     width: 100%;
@@ -66,16 +74,89 @@ p{
     font-size: 20px;
     color: white;
     padding: 15px 40px;
-    background-image: linear-gradient(to right,salmon,rgb(206, 44, 44));
+    background-image: linear-gradient(to right,salmon,orange);
     border-radius: 40px;
     
+
 
 }
 #about{
     background-image: url(/images/7.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
+
 }
 h3{
     font-size: 40px;
+    color: gray;
+    width: 40%;   
 }
+p{
+    font-size: 20px;
+   
+    width: 70%;
+    color:rgb(58, 57, 57) ; 
+    margin-bottom: 50px;  
+}
+.last h3{
+    width:17%;
+    margin:0 auto;  
+}
+.last p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.thrice-width{
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#width-fix{
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+.box-content{
+    width: 90%;
+    
+    margin: 20px;
+    border-radius: 30px;
+    
+
+}
+h4{
+    font-size: 30px;
+    color:rgb(58, 57, 57);
+
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(12, 18, 36);
+    padding-bottom: 50px;
+    
+}
+.social-feed{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 30px;
+    padding-left: 53px;
+    padding-right: 53px;
+    margin-top: 120px;
+    margin-bottom: 100px
+}
+.social-content{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.social-content h3{
+    color: black;
+}
+
